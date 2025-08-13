@@ -1,0 +1,213 @@
+@font-face {
+    font-family: 'Glacial';
+    src: url('fonts/Poppins-SemiBold.ttf');
+}
+*{
+    font-family: 'Glacial';
+}
+body {
+    
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.384);
+    padding: 20px;
+    width: 1800px;
+    max-width: 800px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    color: #555;
+    font-size: 0.9em;
+    margin-top: 15px;
+}
+.emoji{
+   
+    border-radius: 4px;
+    font-size: 50px;
+ 
+
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+button {
+    background-color: #ff194b;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1em;
+    width: 100%;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+  
+  /* Select2 estilizado e alinhado */
+  .select2-container--default .select2-selection--single {
+    background-color: #f8f8f8;
+    color: #000;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1em;
+    width: 100% !important; /* pega toda largura do container */
+    max-width: 400px;        /* limita a largura máxima */
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    min-height: 40px;        /* altura confortável */
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Texto dentro do select */
+  .select2-container--default .select2-selection--single .select2-selection__rendered {
+    min-width: 300px !important;  /* define uma largura mínima */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  /* Garante que o container do select2 tenha largura maior */
+  .select2-container {
+    width: 100% !important;
+    max-width: 400px;
+    min-width: 300px;
+  }
+  
+  /* Ajusta o placeholder e a área selecionada */
+  .select2-selection__placeholder {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Hover */
+  .select2-container--default .select2-selection--single:hover {
+    background-color: #eaeaea;
+  }
+  
+  /* Dropdown do Select2 maior e com fonte confortável */
+  .select2-container--default .select2-dropdown {
+    width: 400px !important; /* largura do dropdown */
+  }
+  
+  /* Tamanho da fonte e padding das opções do dropdown */
+  .select2-container--default .select2-results__option {
+    font-size: 1.1em;
+    padding: 8px 12px;
+  }
+  
+button:hover {
+    background-color: #c5143a;
+}
+
+.social-login {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social-login p {
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    color: #ff194b;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+}
+#emojiGalery img {
+    width: 100px;  /* tamanho menor */
+    height: auto;
+    margin: 8px;
+    vertical-align: middle;
+    border-radius: 8px; /* opcional, arredonda cantos */
+  }
+.social-icon:hover {
+    background-color: #f0f0f0;
+}
+
+.signup-link {
+    margin-top: 15px;
+    font-size: 0.9em;
+    color: #777;
+}
+
+.signup-link a {
+    color: #ff194b;
+    text-decoration: none;
+}
+
+
+h2, label{
+    color: #ff194b;
+}
+.login-icone {
+    width: 200px;
+    display: flex;
+    margin: 5px auto 5px; 
+}
+.esqueceu a{
+    color: #ff194b;
+}
+.esqueceu {
+    margin-top: 15px;
+    font-size: 0.9em;
+    align-items:center;
+    display: flex;
+    justify-content: right;
+}

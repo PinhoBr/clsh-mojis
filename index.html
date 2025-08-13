@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galeria de Emojis com Imagens</title>
+  
+  <!-- CSS do Select2 -->
+  <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+  
+  <!-- CSS personalizado -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  
+  <!-- JS do Select2 -->
+  <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+  
+  <!-- JS personalizado -->
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <select id="emojis" >
+      <option value="tristinho" data-image="imagens/tristinho.gif">arqueirinha</option>
+      <option value="felizinho" data-image="imagens/assobio.gif">assobio</option>
+      <option value="oclinho" data-image="imagens/oclinho.gif">Oclinho</option>
+      <option value="tristinho" data-image="imagens/tristinho.gif">arqueirinha</option>
+      <option value="felizinho" data-image="imagens/assobio.gif">assobio</option>
+      <option value="oclinho" data-image="imagens/oclinho.gif">Oclinho</option>
+    </select>
+
+    <button id="adicionar">Adicionar Emoji</button>
+
+    <div id="emojiGalery"></div>
+  </div>
+</body>
+</html>
